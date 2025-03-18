@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b67e368fa6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Tentang Website</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #ADD8E6, #FFFFFF);
+            background-attachment: fixed;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 80px;
+            height: auto;
+        }
+        .navbar {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        .navbar a {
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+        }
+        .about {
+            max-width: 800px;
+            margin-top: 20px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .food-list ul {
+            text-align: left;
+            display: inline-block;
+        }
+        .image-container {
+            margin: 20px auto;
+            text-align: center;
+        }
+        .image-container img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <img src="assets/images/logo_kota_bogor.png" alt="Logo Kota Bogor" class="logo">
+    <div class="navbar">
+        <ul>
+            <li><a href="index.php">Daftar Makanan</a></li>
+            <li><a href="tentang-website.html">Tentang Website</a></li>
+            <li><a href="cart.php">Keranjang</a></li>
+        </ul>
+    </div>
+    <div class="about">
+        <p>Website aplikasi ini merupakan website pemesanan makanan online<br>Pelanggan dapat langsung memesan makanan melalui layar monitor di setiap meja<br>Kemudian pelayan akan segera menghampiri pelanggan untuk mengantarkan pesanan yang telah dipesan</p>
+        <div class="image-container">
+            <img src="assets/images/tugu_kujang.png" alt="Tugu Kujang Bogor">
+        </div>
+
+        <h2>Kuliner Khas Kota Bogor</h2>
+        <p>Bogor dikenal sebagai kota hujan yang memiliki beragam kuliner khas dengan cita rasa unik dan menggugah selera. Beberapa makanan khas yang terkenal di Bogor antara lain:</p>
+        
+        <div class="food-list">
+            <ul>
+                <li><strong>Asinan Bogor</strong> - Hidangan segar yang terdiri dari buah atau sayuran yang diasinkan dan disajikan dengan kuah kacang yang khas.</li>
+                <li><strong>Bapatong</strong> - Bakso kupat gentong khas Bogor yang disajikan dengan potongan ketupat dan kuah kaldu yang gurih.</li>
+                <li><strong>Doclang</strong> - Makanan berbahan dasar ketupat yang dilengkapi dengan tahu, kentang, telur, dan disiram dengan bumbu kacang.</li>
+                <li><strong>Laksa Bogor</strong> - Hidangan berkuah santan dengan mie, toge, daun kemangi, dan oncom yang memberikan rasa khas.</li>
+                <li><strong>Toge Goreng</strong> - Makanan berbahan dasar toge yang ditumis dengan tahu, ketupat, dan bumbu khas berbasis oncom.</li>
+            </ul>
+        </div>
+        <br/>
+    </div>
+</body>
+</html>
